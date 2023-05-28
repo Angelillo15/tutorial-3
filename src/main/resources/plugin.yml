@@ -1,0 +1,13 @@
+name: "FirstPlugin"
+main: "es.angelillo15.firstplugin.FirstPlugin"
+author: "Angelillo15"
+version: "1.1.0"
+commands:
+  info:
+    aliases:
+      - inf
+      - informacion
+    description: "Comando para ver informacion de mi plugin"
+    usage: "usage /<command> [version|author]"
+    permission: "firstplugin.info"
+    permission-message: "No tienes permiso para ejecutar este comando!"
